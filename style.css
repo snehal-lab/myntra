@@ -1,0 +1,210 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  header .search {
+    margin-top: 10px;
+  }
+  
+  header .search input {
+    width: 250px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  header .search input:focus {
+    outline: none;
+    border: 2px solid #333;
+  }
+  
+  /* Banner styles */
+  .banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product display section styles */
+  .product-display {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .product-display h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Login page styles */
+  .mytra-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .mytra-login form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .mytra-login form img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .mytra-login .heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .mytra-login label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .mytra-login input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .mytra-login .forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .mytra-login .forgot a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .mytra-login .forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .mytra-login button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .mytra-login .login {
+    background-color: #333;
+    color: white;
+  }
+  
+  .mytra-login .login:hover {
+    background-color: #555;
+  }
+  
+  .mytra-login .signup {
+    background-color: #e5e5e5;
+    color: #333;
+  }
+  
+  .mytra-login .signup:hover {
+    background-color: #ccc;
+  }
+  
+  /* Poster section styles */
+  .poster {
+    background-image: url('https://via.placeholder.com/400x400');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
