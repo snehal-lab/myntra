@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Sale</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sale Banner Section -->
+    <section class="sale-banner">
+        <h1>Big Sale - Up to 70% Off!</h1>
+        <p>Shop the latest fashion at unbeatable prices. Don't miss out!</p>
+        <button onclick="window.location.href='#products'">Shop Now</button>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <h3>Filter by Category</h3>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="clothing">Clothing</option>
+            <option value="footwear">Footwear</option>
+            <option value="accessories">Accessories</option>
+        </select>
+    </section>
+
+    <!-- Sale Products Section -->
+    <section class="products" id="products">
+        <div class="product-item" data-category="clothing">
+            <img src="C:\Users\klebc\OneDrive\ドキュメント\1.jpg"alt="T-shirt" />
+            <h4>Men's T-shirt</h4>
+            <p><span class="old-price">₹899</span> ₹499</p>
+        </div>
+        <div class="product-item" data-category="footwear">
+            <img src="C:\Users\klebc\OneDrive\ドキュメント\6.jpg" alt="Sneakers" />
+            <h4> Shoes</h4>
+            <p><span class="old-price">₹1499</span> ₹899</p>
+        </div>
+        <div class="product-item" data-category="accessories">
+                <p>Product 1</p>
+                <img src="C:\Users\klebc\OneDrive\ドキュメント\watch.avif" alt="Watch" />
+            <h4>Men's Watch</h4>
+            <p><span class="old-price">₹2499</span> ₹1499</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <img src="C:\Users\klebc\OneDrive\ドキュメント\5.jpg" alt="Jeans" />
+            <h4>Men's Jeans</h4>
+            <p><span class="old-price">₹1799</span> ₹999</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Myntra - Big Sale Collection</p>
+    </footer>
+
+    <!-- Link to JavaScript (Optional) -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management System</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Order Management System</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Orders</h2>
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ORD001</td>
+                    <td>John Doe</td>
+                    <td>Product A</td>
+                    <td>2</td>
+                    <td>$50</td>
+                    <td><span class="status status-pending">Pending</span></td>
+                    <td>
+                        <button class="update-btn">Update</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ORD002</td>
+                    <td>Jane Smith</td>
+                    <td>Product B</td>
+                    <td>1</td>
+                    <td>$30</td>
+                    <td><span class="status status-shipped">Shipped</span></td>
+                    <td>
+                        <button class="update-btn">Update</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <!-- Additional orders can go here -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Order Management System. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
